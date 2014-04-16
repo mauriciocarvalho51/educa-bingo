@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Teste rand PHP</title>
+        
+		<script type="text/javascript" src="jquery-1.11.0.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#acao").click(
+					function(){
+						$.get("indexRand.php", function(data){
+							$("#num").html(data);
+						});
+				});
+			});
+		</script>
+ 
+ 
+    </head>
+
+    <body>
+
+    	<form method="post" action="indexRand.php">
+	   		<p>
+	       		<input type="button" name="acao" id="acao" value="Gerar" />
+				
+				<div id="num">
+                	NUMERO SORTEADO!
+                </div>
+	   		<p></p>
+		</form>
+
+    </body>
+</html>
