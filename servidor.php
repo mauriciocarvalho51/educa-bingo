@@ -30,6 +30,7 @@
 		$errorcode = socket_last_error();
 		$errormsg = socket_strerror($errorcode);
      
+		
 		die("Não pode receber dados do servidor: [$errorcode] $errormsg \n");
 	}
 	
