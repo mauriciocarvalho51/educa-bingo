@@ -1,0 +1,23 @@
+body {
+	background-image:url("img/background.jpg");
+}
+
+#inicial {
+	text-align:center;
+}
+
+#num {
+	
+	
+}
+
+h1 {
+	font-size:50px;
+	text-align:left;
+	color:black;
+}
+
+#acao:hover {
+	background-color:#006699;
+	color:white;
+}

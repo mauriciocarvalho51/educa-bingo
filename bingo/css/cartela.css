@@ -1,0 +1,27 @@
+body {
+	background-image:url("img/screen.jpeg");
+}
+
+#topo {
+	width: 100%;
+	height: 150px;
+}
+
+#cartela .bingar  {
+	float: right;
+}
+
+table {
+	align:center;
+	background-color:#DDDDDD;
+}
+
+td  {
+	width:150px;
+	height:150px;
+	text-align:center;
+}
+tr {
+	width:150px;
+	height:150px;
+}

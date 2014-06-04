@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <title>Teste rand PHP</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+		       
+		<script type="text/javascript" src="jquery-1.11.0.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#acao").click(
+					function(){
+						$.get("indexRand.php", function(data){
+							$("#num").html(data);
+						});
+				});
+			});
+		</script>
+ 
+ 
+    </head>
+
+    <body>
+		<div id="inicial">
+			<form method="post" action="indexRand.php">
+				<p>
+					<input type="button" name="acao" id="acao" value="Gerar" style="font-size:40px;" />
+					
+					<div id="num">
+						<h1>SEQUENCIA SORTEADA:</h1>
+					</div>
+				<p></p>
+			</form>
+		</div>
+
+    </body>
+</html>

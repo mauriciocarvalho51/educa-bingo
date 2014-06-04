@@ -1,0 +1,25 @@
+ALGORITMO SISTEMA --------------
+
+1- O cliente clica em jogar:
+
+vetor[6] int;
+cartela[6] int;
+
+ 
+ 
+ for (int i=1; i<vetor.lengh; i++) {
+	while
+	cartela[i] = random(27) + 1;
+ }
+
+pesquisar "webSockets"
+
+>http://stackoverflow.com/questions/17114113/jquery-toggle-addclass-doesnt-seem-to-have-desired-effect
+>
+>
+http://api.jquery.com/addClass/
+>
+http://www.html5rocks.com/pt/tutorials/websockets/basics/
+
+http://api.jquery.com/attr/
+

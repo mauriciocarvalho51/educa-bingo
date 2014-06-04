@@ -1,0 +1,15 @@
+/* criação de estilo para tag */
+body {
+	background-color: #FFF5BB;
+	background-image: url("../imagens/fundo.png");
+	background-repeat: repeat-y; /* no-repeat, repeat, repeat-x */
+	background-position: right; /* left, center, bottom, top */
+	background-attachment: fixed; /* scroll */
+	/* background: url("../imagens/fundo.png") #FFF5BB repeat-y right fixed; */
+}
+
+#num {
+	width: 200px;
+	height: 200px;
+	background-color: #A14C6D;
+}
